@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.countries-capitals-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 25px;
+}
+.countries-options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  height: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 40px;
+
+  border-width: 1px;
+}
+.description {
+  font-size: 13px;
+}
+.option {
+  padding: 10px;
+}
+.country {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .select {
+    height: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+
+    border-width: 0.5px;
+  }
+}
